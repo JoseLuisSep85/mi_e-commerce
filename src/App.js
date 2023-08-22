@@ -10,7 +10,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path = "/" element = {<ItemListContainer greeting={'Bienvenidos a TecnoPlay'}/>}/>
-          <Route path = "/categoria/:categoriaId" element = {<ItemListContainer/>}/>
+          <Route path = "/categoria/:categoria" element = {<ItemListContainer/>}/>
           <Route path = "/item/:id" element = {<ItemDetailContainer/>}/>
           <Route path = "*" element = {<h1>404 NOT FOUND</h1>}/>
         </Routes>
