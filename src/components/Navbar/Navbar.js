@@ -1,7 +1,6 @@
 import React from 'react'
 import TecnoPlay_Logo from '../../assets/img/TecnoPlay_Logo.svg'
-// import CartWidget from '../CartWidget/CartWidget'
-import { NavLink } from 'react-router-dom'
+import CartWidget from '../CartWidget/CartWidget'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
@@ -11,13 +10,13 @@ function NavBar() {
           <img className=' h-24' src={TecnoPlay_Logo} alt = 'TecnoPlay logo'/>
         </Link>
         
-        <div className='flex gap-4 text-white items-center'>
-          <NavLink to="/" className='hover:bg-sky-500 p-4 rounded-md'>Inicio</NavLink>
-          <NavLink to="/categoria/SmartPhones" className='hover:bg-sky-500 p-4 rounded-md'>SmartPhones</NavLink>
-          <NavLink to="/categoria/Notebooks" className='hover:bg-sky-500 p-4 rounded-md'>Notebooks</NavLink>
-          <NavLink to="/categoria/Videojuegos" className='hover:bg-sky-500 p-4 rounded-md'>Videojuegos</NavLink>
-          {/* <CartWidget/> */}
-        </div>
+        <ul className='flex gap-4 text-white items-center'>
+          <li><Link to="/" className='hover:bg-sky-500 p-4 rounded-md'>Inicio</Link></li>
+          <li><Link to="/categoria/SmartPhones" className='hover:bg-sky-500 p-4 rounded-md'>SmartPhones</Link></li>
+          <li><Link to="/categoria/Notebooks" className='hover:bg-sky-500 p-4 rounded-md'>Notebooks</Link></li>
+          <li><Link to="/categoria/Videojuegos" className='hover:bg-sky-500 p-4 rounded-md'>Videojuegos</Link></li>
+          <li><CartWidget/></li>
+        </ul>
         
     </nav>
   )
