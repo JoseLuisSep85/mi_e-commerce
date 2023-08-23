@@ -28,7 +28,7 @@ const Cart = () => {
                 <div>
                     <h2 className='m-8 font-bold'>Total Compra: {precioTotal()}</h2>
                     <button className=' bg-sky-600 hover:bg-sky-500 p-4 rounded-lg m-8 text-white justify-center' onClick={handleVaciar}>Vaciar Carrito</button>
-                    <Link to="/Checkout" >Finalizar Compra</Link>        
+                    <Link to="/Checkout"  className=' bg-sky-800 hover:bg-sky-500 p-4 rounded-lg m-8 text-white justify-center'>Finalizar Compra</Link>        
                 </div>
                     :
                 <h2 className=' text-center font-medium text-lg'>El carrito esta vacio</h2>    

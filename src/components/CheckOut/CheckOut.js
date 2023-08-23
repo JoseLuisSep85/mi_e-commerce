@@ -39,15 +39,15 @@ const CheckOut = () => {
 
 
     return (
-        <div className=' container'>
-            <h1>Finalizar compra</h1>
-            <form onSubmit={handleSubmit(comprar)}>
+        <div className='flex flex-col m-8'>
+            <h1 className=' font-semibold text-lg p-8'>Finalizar compra</h1>
+            <form className='flex flex-col container p-8 gap-8' onSubmit={handleSubmit(comprar)}>
                 
-                <input type="text" placeholder='Ingrese su nombre'{...register("nombre")} />
-                <input type="email" placeholder='Ingrese su e-mail' {...register("email")} />
-                <input type="phone" placeholder='Ingrese su teléfono'{...register("telefono")} />
+                <input className=' border-solid border-inherit' type="text" placeholder='Ingrese su nombre'{...register("nombre")} required/>
+                <input type="email" placeholder='Ingrese su e-mail' {...register("email")} required/>
+                <input type="phone" placeholder='Ingrese su teléfono'{...register("telefono")} required/>
 
-                <button type='submit'>Comprar</button>
+                <button type='submit' className='text  bg-sky-600 hover:bg-sky-500 p-4 rounded-lg m-8 text-white justify-center w-24'>Comprar</button>
 
             </form>
 
