@@ -30,9 +30,9 @@ const CheckOut = () => {
 
     if (pedidoId) {
         return (
-            <div className=' container'>
-                <h1>Muchas gracias por su Compra</h1>
-                <p>Tu número de pedido es : {pedidoId}</p>
+            <div className=' container m-10 gap-10 p-10'>
+                <h1 className=' text-2xl text-center gap-10'>Muchas gracias por su Compra</h1>
+                <p className='text-xl text-center'>Tu número de pedido es : {pedidoId}</p>
             </div>
         )
     }
