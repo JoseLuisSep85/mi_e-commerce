@@ -24,7 +24,7 @@ donde puedes simular la compra de producto con un carrito de compras y un checko
 
 Los productos tambien están alojados en una base de datos de Firebase.
 
-Puedes ver un [Video](http://www.google.com) de muestra de como funciona en una operación básica de compra.
+Puedes ver un [Video](https://1drv.ms/v/s!AvzIKHJFkMMFg70pDiXna07zq6uwiA?e=czir80) de muestra de como funciona en una operación básica de compra.
 
 Tambien puedes ver la [AppWeb](https://mi-e-commerce.vercel.app/) corriendo en Vercel.
 
