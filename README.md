@@ -26,7 +26,7 @@ Los productos tambien están alojados en una base de datos de Firebase.
 
 Puedes ver un [Video](http://www.google.com) de muestra de como funciona en una operación básica de compra.
 
-Tambien puedes ver la [AppWeb](https://vercel.com/joseluissep85/mi-e-commerce) corriendo en Vercel.
+Tambien puedes ver la [AppWeb](https://mi-e-commerce.vercel.app/) corriendo en Vercel.
 
 Espero puedas disfrutar de la experiencia de compra.
 
